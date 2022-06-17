@@ -1,0 +1,234 @@
+.input{
+    width: 800px;
+    height: 57px;
+    margin: 28px 28px 20px 232px;
+    font-size: 26px;
+    color: black;
+    /* margin: auto; */
+    border-radius: 10px;
+    border: 3px solid black;
+    line-height: 18.4px;  
+    text-decoration: none;
+    outline: none; 
+   
+}
+.box__1{
+    width: 800px;
+    height: 80px;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin: auto;
+    display: flex;
+    font-size: 14px;
+    flex-direction: column;
+
+}
+
+.temp_1{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 45%;
+    display: flex;
+    margin-top: -12px;
+    margin-left: 10px;
+}
+
+.temp_2{
+    /* border: 2px solid brown; */
+    width: 100%;
+    height: 45%;
+    margin-left: 10px;
+    display: flex;
+    
+}
+
+
+.daily_temp{
+    width: 100%;
+    height: 45%;
+    /* display: inline-block; */
+    /* border: 1px solid blue;     */
+    margin-top: 7px;
+   
+} 
+
+ .daily_weather{
+    width: 100%;
+    height: 50%;
+    margin-top: 7px;
+    /* border: 1px solid blue; */
+}
+
+.hour{
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 30px;
+    height: 70px;
+    display: flex;
+}
+
+.hpbox{
+    width:60%;
+    display: flex;
+    height: 60px;
+    margin: auto;
+    margin-top: 90px;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+
+}
+.boxph{
+ width: 48%;
+ margin-top: 0px;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ background-color: lightsteelblue;
+}
+
+.boxph > h3{
+    margin-top: 0px;
+    margin-left: 8px;
+   
+}
+
+.boxph > h4{
+    line-height: 0px;
+    margin-top: -10px;
+    margin-left: 8px;
+}
+
+.sun{
+    border: 1px solid black;
+    width: 62%;
+    height: 39px;
+    margin-top: 17px;
+    margin-left: 240px;
+    display: flex;
+    
+}
+
+.rise{
+    float: left;
+    margin-top: 2px;
+    margin-left:10px ;
+}
+.set{
+    margin-top: 2px;
+    margin-left:400px ;
+}
+
+
+@media screen and (max-width:400px) {
+    .input{
+        width: 300px;
+        height: 57px;
+        margin: 28px 28px 20px 32px;
+        font-size: 26px;
+        color: black;
+        /* margin: auto; */
+        border-radius: 10px;
+        border: 3px solid black;
+        line-height: 18.4px;  
+        text-decoration: none;
+        outline: none;       
+    }
+
+    .box__1{
+        width: 300px;
+        height: 30px;
+        border: 1px solid black;
+        margin-top: 5px;
+        margin: auto;
+        display: flex;
+        font-size: 14px;
+        flex-direction: column;
+    
+    }
+
+    .temp_1{
+        /* border: 2px solid red; */
+        width: 100%;
+        height: 45%;
+        display: flex;
+        font-size: 12px;
+        margin-top: -12px;
+        margin-left: 10px;
+    }
+
+    .daily_weather{
+        width: 100%;
+        height: 30%;
+        font-size: 7px;
+        margin-top: 2px;
+        /* border: 1px solid blue; */
+    }
+
+    .daily_temp{
+        width: 100%;
+        height: 35%;
+        font-size: 7px;
+        /* display: inline-block; */
+        /* border: 1px solid blue;     */
+        margin-top: 2px;
+       
+    } 
+   
+    .hpbox{
+        width:79%;
+        display: flex;
+        height: 60px;
+        margin: auto;
+        margin-top: 90px;
+        /* border: 2px solid red; */
+        justify-content: space-between;
+    
+    }
+    
+    
+    .boxph > h3{
+        margin-top: 0px;
+        margin-left: 8px;
+        font-size: 15px;
+       
+    }
+    
+    .boxph > h4{
+        font-size: 15px;
+        line-height: 0px;
+        margin-top: -10px;
+        margin-left: 8px;
+    }
+
+    .sun{
+        border: 1px solid black;
+        width: 72%;
+        height: 39px;
+        margin-top: 17px;
+        margin-left: 40px;
+        display: flex;
+        
+    }
+    
+    .rise{
+        float: left;
+        margin-top: 9px;
+        font-size: 12px;
+        margin-left:10px ;
+    }
+    .set{
+        margin-top: 9px;
+        font-size: 12px;
+        margin-left:70px ;
+    }
+    
+}
+
+.btn{
+    border-radius: 15px;
+    width: 150px;
+    height: 38px;
+    font-size: 16px;
+    background-color: tomato;
+    color: white;
+}
